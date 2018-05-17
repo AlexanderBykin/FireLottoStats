@@ -15,7 +15,8 @@
 - Register at `myetherapi.com` and get your ApiKey, then place them at your `config.json` > `web3Provider` > `apiKey`
 
 ## Code generation
-run `sbt gen-tables` to generate Slick database model
+- run `sbt gen-tables` to generate Slick database model
+- to generate Java code from Solidity smart contract you need to have `solc` compiler and `web3j` generator<br/>`solc <contract>.sol --bin --abi --optimize -o <output-dir>/`<br/> `web3j solidity generate /path/to/<smart-contract>.bin /path/to/<smart-contract>.abi -o /path/to/src/main/java -p com.your.organisation.name`
 
 ## Run
 - make sure that you defined full path to application config like `firelotto-stats.jar path/to/config/config.json` template of config placed at `src/main/configs/config_template.json`

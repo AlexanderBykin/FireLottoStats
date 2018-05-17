@@ -1,0 +1,21 @@
+{
+  "statsOutDir": "path/to/outputResults/",
+  "walletsOutDir": "path/to/rootProject/walletFile/",
+  "web3Provider": {
+    "url": "https://api.myetherapi.com/eth",
+    "apiKey": "here should be your key"
+  },
+  "db": {
+    "url": "jdbc:postgresql://127.0.0.1:5432/firelottostats",
+    "username": "postgres",
+    "password": "",
+    "driver": "org.postgresql.Driver",
+    "logSQL": false
+  },
+  "proxy": {
+    "enabled": false,
+    "proxyType": "HTTP",
+    "host": "",
+    "port": 0
+  }
+}

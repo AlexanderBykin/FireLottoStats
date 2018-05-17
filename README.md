@@ -1,5 +1,5 @@
 ## FireLottoStats
-FireLotto - an blockchain lottery analytical statistics tool
+[FireLotto](https://firelotto.com) - an blockchain lottery analytical statistics tool that collect information about tickets, chosen numbers, draw results.
 
 ## Build requirements
 - Java 8
@@ -7,7 +7,7 @@ FireLotto - an blockchain lottery analytical statistics tool
 - PostgreSQL 9.x
 
 ## Configuration
-- Copy somwhere `src/main/configs/config_template.json`
+- Copy somewhere `src/main/configs/config_template.json`
 - Setup Database connection
 - Change `statsOutDir` path variable to let program collect all output statistics
 - Change `walletsOutDir` path variable to let program know where to find wallets information (passwords is faked)
